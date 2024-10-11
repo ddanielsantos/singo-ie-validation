@@ -14,7 +14,7 @@ func (v Para) IsValid(insc string) bool {
 		return false
 	}
 
-	if !rule.IsStartWith(insc, "15") {
+	if !rule.IsStartWith(insc, "15") && !rule.IsStartWith(insc, "75") {
 		return false
 	}
 
